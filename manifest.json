@@ -1,6 +1,7 @@
 {
   "name": "AP8Q2 Week2 Mobile App",
   "short_name": "AP8Q2 App",
+  "description": "A simple mobile web app for AP8Q2 Week 2 activities, offline-ready and installable.",
   "start_url": "/index.html",
   "display": "standalone",
   "orientation": "portrait",
