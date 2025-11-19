@@ -9,6 +9,14 @@
 <body>
 <center>
 
+<script>
+if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('/service-worker.js')
+    .then(() => console.log('Service Worker Registered'))
+    .catch((error) => console.log('Service Worker registration failed:', error));
+}
+</script>
+
 <b>
 <!-- Main Title -->
 <button type="submit" style="background:linear-gradient(135deg,#4B0082,#800080);color:white;
